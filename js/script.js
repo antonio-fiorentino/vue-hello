@@ -6,6 +6,7 @@ var app = new Vue({
  el: '#root',
  data:{
    text:'',
+   img:'img.jpg',
  }
 });
 Vue.config.devtools = true

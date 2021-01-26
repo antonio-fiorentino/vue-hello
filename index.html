@@ -11,8 +11,9 @@
   <body>
 
     <div id="root">
-      <input v-model="text" value="AAA">
+      <input v-model="text">
       <h1>{{text}}</h1>
+      <img v-bind:src="'../js/img/'+ img">
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
